@@ -40,7 +40,10 @@ const generatePassword = (getLatterLowerCase , getLatterUpperCase , getNumber , 
         })
     }
     password =  password.slice(0, passwordLength)
-    console.log(password.length)
+
+    generatePasswordElement.style.display = "block"
+    generatePasswordElement.querySelector("h4").innerText = password
+
 }
 
 
@@ -48,5 +51,7 @@ const generatePassword = (getLatterLowerCase , getLatterUpperCase , getNumber , 
 // eventos 
 
 generatePasswordButton.addEventListener("click" , () => {
+    // generatePasswordElement.style.diplay = "block"
+
     generatePassword(getLatterLowerCase , getLatterUpperCase, getNumber, getSymbol)
 })
