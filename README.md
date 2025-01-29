@@ -27,13 +27,20 @@ A interface é responsiva e intuitiva, oferecendo uma experiência fluida.
 
 # 🛠 Tecnologias Utilizadas
 HTML5 → Estrutura do formulário
+
 CSS3 → Estilização moderna e responsiva
+
 JavaScript (Vanilla) → Manipulação do DOM, eventos e lógica do gerador de senha
+
 Clipboard API → Para permitir a cópia da senha com um clique
 
 # 📌 O Que Aprendi e Pratiquei?
 ✔️ Manipulação do DOM → Trabalhei com seletores, eventos e manipulação dinâmica de elementos.
+
 ✔️ Eventos no JavaScript → Apliquei addEventListener para criar interações no formulário e no gerador de senha.
+
 ✔️ Geração de Senhas Aleatórias → Aprendi a utilizar String.fromCharCode para gerar caracteres dinâmicos.
+
 ✔️ Uso da Clipboard API → Para permitir a cópia da senha de forma intuitiva.
+
 ✔️ Boas práticas no desenvolvimento front-end → Organizei o código de forma modular e reutilizável.
